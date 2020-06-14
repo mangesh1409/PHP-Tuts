@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Accept</title>
+</head>
+
+<body>
+
+    <h3>Accept Single Line Input</h3>
+    <form action="021_InputAccept.php" method="post">
+        Enetr Your Name : 
+        <input type="text" name="name" id="name"><br><br>
+
+        Enter Your Address :<br><br>
+        <textarea name="address" id="address" cols="30" rows="3"></textarea><br><br>
+
+        Gender :<br>
+        <input type="radio" name="gen" id="" value="Male">Male<br>
+        <input type="radio" name="gen" id="" value="Female">Female<br><br>
+
+        Select Your Choices:<br>
+        <input type="checkbox" name="game[]" id="game" value="Cricket">Cricket<br>
+        <input type="checkbox" name="game[]" id="game" value="Tennis">Tennis<br>
+        <input type="checkbox" name="game[]" id="game" value="Football">Football<br>
+        <input type="checkbox" name="game[]" id="game" value="Hockey">Hockey<br><br>
+
+        Select Your Hobbies:<br>
+        <select name="hobbies[]" id="hobies" multiple>
+            <option value="Reading">Reading</option>
+            <option value="Playing">Playing</option>
+            <option value="Eating">Eating</option>
+            <option value="Sleeping">Sleeping</option>
+        </select>
+        
+
+
+        <br><br>
+        <button type="submit">SUBMIT</button>
+        
+
+    </form>
+    
+
+</body>
+</html>
